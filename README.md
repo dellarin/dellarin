@@ -4,42 +4,5 @@
     <span class="letters">Hi, I'm Della</span>
   </span>
 </h1>
-<style>
-ml6 {
-  position: relative;
-  font-weight: 900;
-  font-size: 3.3em;
-}
-ml6 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
-}
-
-ml6 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-  </style>
-var textWrapper = document.querySelector('.ml6 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml6 .letter',
-    translateY: ["1.1em", 0],
-    translateZ: 0,
-    duration: 750,
-    delay: (el, i) => 50 * i
-  }).add({
-    targets: '.ml6',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  })
 I'm della from Nigeria. 
 I'm pursuing a new career in tech(full stack web developement)
