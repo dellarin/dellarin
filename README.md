@@ -4,7 +4,7 @@
     <span class="letters">Hi, I'm Della</span>
   </span>
 </h1>
-
+<style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 .ml6 {
   position: relative;
@@ -25,6 +25,7 @@
   display: inline-block;
   line-height: 1em;
 }
+  </style>
 var textWrapper = document.querySelector('.ml6 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
