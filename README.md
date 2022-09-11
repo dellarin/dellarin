@@ -4,5 +4,5 @@
     <span class="letters">Hi, I'm Della</span>
   </span>
 </h1>
-I'm della from Nigeria. 
+I'm from Nigeria. 
 I'm pursuing a new career in tech(full stack web developement)
