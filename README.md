@@ -5,14 +5,12 @@
   </span>
 </h1>
 <style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-.ml6 {
+ml6 {
   position: relative;
   font-weight: 900;
   font-size: 3.3em;
 }
-
-.ml6 .text-wrapper {
+ml6 .text-wrapper {
   position: relative;
   display: inline-block;
   padding-top: 0.2em;
@@ -21,7 +19,7 @@
   overflow: hidden;
 }
 
-.ml6 .letter {
+ml6 .letter {
   display: inline-block;
   line-height: 1em;
 }
